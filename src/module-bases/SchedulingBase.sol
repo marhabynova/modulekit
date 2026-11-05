@@ -117,16 +117,18 @@ abstract contract SchedulingBase is ERC7579ExecutorBase {
             revert InvalidExecution();
         }
 
-        if (executionConfig.lastExecutionTime + executionConfig.executeInterval > block.timestamp) {
-            revert InvalidExecution();
-        }
-
         if (executionConfig.numberOfExecutionsCompleted >= executionConfig.numberOfExecutions) {
             revert InvalidExecution();
         }
 
-        if (executionConfig.startDate > block.timestamp) {
-            revert InvalidExecution();
+        if (executionConfig.numberOfExecutionsCompleted == 0) {
+            if (executionConfig.startDate > block.timestamp) {
+                revert InvalidExecution();
+            }
+        } else {
+            if (executionConfig.lastExecutionTime + executionConfig.executeInterval > block.timestamp) {
+                revert InvalidExecution();
+            }
         }
     }
 

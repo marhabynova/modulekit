@@ -14,6 +14,9 @@ importers:
       '@ERC4337/account-abstraction-v0.6':
         specifier: github:eth-infinitism/account-abstraction#v0.6.0
         version: accountabstraction@https://codeload.github.com/eth-infinitism/account-abstraction/tar.gz/7174d6d845618dbd11cee68eefa715f5263690b6(ethers@5.7.2)(hardhat@2.22.17(typescript@4.9.5))(lodash@4.17.21)(typechain@5.2.0(typescript@4.9.5))
+      '@openzeppelin/contracts':
+        specifier: ^5.2.0
+        version: 5.2.0
       '@prb/math':
         specifier: ^4.1.0
         version: 4.1.0
@@ -263,7 +266,7 @@ packages:
     engines: {node: '>= 8'}
 
   '@nomad-xyz/excessively-safe-call@https://codeload.github.com/nomad-xyz/ExcessivelySafeCall/tar.gz/81cd99ce3e69117d665d7601c330ea03b97acce0':
-    resolution: {tarball: https://codeload.github.com/nomad-xyz/ExcessivelySafeCall/tar.gz/81cd99ce3e69117d665d7601c330ea03b97acce0}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/nomad-xyz/ExcessivelySafeCall/tar.gz/81cd99ce3e69117d665d7601c330ea03b97acce0}
     version: 0.0.1-rc.1
 
   '@nomicfoundation/edr-darwin-arm64@0.6.5':
@@ -390,7 +393,7 @@ packages:
     resolution: {integrity: sha512-+WzDOn7Cp7DGw4oLsnWtcfqMkLTJAfC3qdTCYcZdDuBuSNST/E+7Gsau+5Uu97IYgTc7suTo+5OiP5k+E2q79A==}
 
   '@rhinestone/sentinellist@https://codeload.github.com/rhinestonewtf/sentinellist/tar.gz/e722c5cc68c570d535bc3c9f85b3ce90cdc38807':
-    resolution: {tarball: https://codeload.github.com/rhinestonewtf/sentinellist/tar.gz/e722c5cc68c570d535bc3c9f85b3ce90cdc38807}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/rhinestonewtf/sentinellist/tar.gz/e722c5cc68c570d535bc3c9f85b3ce90cdc38807}
     version: 1.0.1
 
   '@scure/base@1.1.9':
@@ -509,11 +512,11 @@ packages:
     resolution: {integrity: sha512-LEyx4aLEC3x6T0UguF6YILf+ntvmOaWsVfENmIW0E9H09vKlLDGelMjjSm0jkDHALj8A8quZ/HapKNigzwge+Q==}
 
   accountabstraction@https://codeload.github.com/eth-infinitism/account-abstraction/tar.gz/7174d6d845618dbd11cee68eefa715f5263690b6:
-    resolution: {tarball: https://codeload.github.com/eth-infinitism/account-abstraction/tar.gz/7174d6d845618dbd11cee68eefa715f5263690b6}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/eth-infinitism/account-abstraction/tar.gz/7174d6d845618dbd11cee68eefa715f5263690b6}
     version: 0.6.0
 
   accountabstraction@https://codeload.github.com/kopy-kat/account-abstraction/tar.gz/c5887153fbfe3ed09b2637cac39873f96d676f38:
-    resolution: {tarball: https://codeload.github.com/kopy-kat/account-abstraction/tar.gz/c5887153fbfe3ed09b2637cac39873f96d676f38}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/kopy-kat/account-abstraction/tar.gz/c5887153fbfe3ed09b2637cac39873f96d676f38}
     version: 0.7.0
 
   adm-zip@0.4.16:
@@ -869,7 +872,7 @@ packages:
     engines: {node: '>=8'}
 
   ds-test@https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0:
-    resolution: {tarball: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/dapphub/ds-test/tar.gz/e282159d5170298eb2455a6c05280ab5a73a4ef0}
     version: 1.0.0
 
   dunder-proto@1.0.1:
@@ -1057,11 +1060,11 @@ packages:
         optional: true
 
   forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/3b20d60d14b343ee4f908cb8079495c07f5e8981:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/3b20d60d14b343ee4f908cb8079495c07f5e8981}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/3b20d60d14b343ee4f908cb8079495c07f5e8981}
     version: 1.9.6
 
   forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/8a225d81aa8e2e013580564588c79abb65eacc9e:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/8a225d81aa8e2e013580564588c79abb65eacc9e}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/8a225d81aa8e2e013580564588c79abb65eacc9e}
     version: 1.9.3
 
   form-data-encoder@2.1.4:
@@ -1882,11 +1885,11 @@ packages:
     engines: {node: '>=10'}
 
   solady@https://codeload.github.com/vectorized/solady/tar.gz/59f28399b7e9202bc6145b082bf7ff025b8b1ddc:
-    resolution: {tarball: https://codeload.github.com/vectorized/solady/tar.gz/59f28399b7e9202bc6145b082bf7ff025b8b1ddc}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/vectorized/solady/tar.gz/59f28399b7e9202bc6145b082bf7ff025b8b1ddc}
     version: 0.1.6
 
   solarray@https://codeload.github.com/sablier-labs/solarray/tar.gz/6bf10cb34cdace52a3ba5fe437e78cc82df92684:
-    resolution: {tarball: https://codeload.github.com/sablier-labs/solarray/tar.gz/6bf10cb34cdace52a3ba5fe437e78cc82df92684}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/sablier-labs/solarray/tar.gz/6bf10cb34cdace52a3ba5fe437e78cc82df92684}
     version: 1.0.0
 
   solc@0.8.26:
